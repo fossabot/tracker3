@@ -1,0 +1,40 @@
+
+mdutil -i off /Volumes/TRACKER
+cd /Volumes/TRACKER
+rm -rf .{,_.}{fseventsd,Spotlight-V*,Trashes}
+mkdir .fseventsd
+touch .fseventsd/no_log .metadata_never_index .Trashes
+cd -
+
+// http://playground.arduino.cc/Main/MPU-6050
+
+// https://www.arduino.cc/en/Hacking/PinMapping2560
+
+// https://www.arduino.cc/en/Reference/Serial
+
+// GPS Examples
+// http://playground.arduino.cc/Tutorials/GPS
+// https://quaxio.com/arduino_gps/
+// https://www.cooking-hacks.com/projects/arduino-realtime-gps-gprs-vehicle-tracking/
+// http://www.jeremyblum.com/2012/07/16/tutorial-15-for-arduino-gps-tracking/
+// http://circuitdigest.com/microcontroller-projects/vehicle-tracking-system-using-arduino-gps-and-gsm
+// http://playground.arduino.cc/UBlox/GPS
+
+// NEO-M8 protocol
+//$GNTXT,01,01,02,u-blox AG - www.u-blox.com*4E
+//$GNTXT,01,01,02,HW UBX-M80xx 00080000 *43
+//$GNTXT,01,01,02,ROM CORE 2.01 (75331) Oct 29 2013 13:28:17*4A
+//$GNTXT,01,01,02,PROTVER 15.00*01
+//$GNTXT,01,01,02,GNSS OTP:  GPS GLO, SEL:  GPS GLO*67
+//$GNTXT,01,01,02,ANTSUPERV=AC SD PDoS SR*3E
+//$GNTXT,01,01,02,ANTSTATUS=DONTKNOW*2D
+//$GNTXT,01,01,02,LLC FFFFFFFF-FFFFFFED-FFFFFFFF-FFFFFFFF-FFFFFFED*30
+//$GNTXT,01,01,02,RF0 dev ok*04
+// PROTOCOL https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf
+// NMEA Checksum Calculator http://www.hhhh.org/wiml/proj/nmeaxor.html
+
+// http://arduiniana.org/libraries/tinygps/
+// http://arduiniana.org/libraries/tinygpsplus/
+// https://github.com/mikalhart/TinyGPSPlus
+
+// dtostrf(floatvar, MinimumStringLengthIncDecimalPoint, numVarsAfterDecimal, charbuf);

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "55881728363A74F22EFF3C20A6D146E28FF35AAB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "55881728363A74F22EFF3C20A6D146E28FF35AAB" : 9223372036854775807,
+    "9873D25A77FE0EB64657C7DAB2969A521C7408A8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2C7ACF33-AA19-4980-8B5D-8D127B860C3A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "55881728363A74F22EFF3C20A6D146E28FF35AAB" : "horizon-tracker\/",
+    "9873D25A77FE0EB64657C7DAB2969A521C7408A8" : "horizon\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "horizon-tracker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "horizon-tracker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/striderag\/horizon-tracker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55881728363A74F22EFF3C20A6D146E28FF35AAB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:striderag\/horizon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9873D25A77FE0EB64657C7DAB2969A521C7408A8"
+    }
+  ]
+}
